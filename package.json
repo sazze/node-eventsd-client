@@ -1,0 +1,39 @@
+{
+  "name": "eventsd-client",
+  "version": "2.0.0",
+  "description": "client library for streaming events from an eventsd server",
+  "main": "lib/client.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sazze/node-eventsd-client.git"
+  },
+  "keywords": [
+    "eventsd",
+    "client",
+    "events",
+    "stream"
+  ],
+  "engines": {
+    "node": ">=4.2.2"
+  },
+  "author": "Craig Thayer <cthayer@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sazze/node-eventsd-client/issues"
+  },
+  "homepage": "https://github.com/sazze/node-eventsd-client",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.13.1",
+    "socket.io-client": "^1.4.8"
+  },
+  "devDependencies": {
+    "eventsd": "^0.1.2",
+    "eventsd-server": "2.x",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  }
+}
