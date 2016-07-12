@@ -36,6 +36,19 @@ client.on('event', function (event) {
 client.start();
 ```
 
+### Add/Remove bound routing keys without reconnecting
+
+```javascript
+// 'connect' event already fired
+
+client.addKey('event.test.#');
+client.addKey(['event.test1.#', 'event.test2.#']);
+
+
+client.removeKey('event.test.#');
+client.removeKey(['event.test1.#', 'event.test2.#']);
+```
+
 ## Client Options
 
 ```javascript
