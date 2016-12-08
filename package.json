@@ -1,6 +1,6 @@
 {
   "name": "eventsd-client",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "client library for streaming events from an eventsd server",
   "main": "lib/client.js",
   "scripts": {
